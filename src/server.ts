@@ -37,7 +37,6 @@ app.get("/games", async (request, response)=>{
             }
         }
     }});
-    console.log("Games Prisma", games);
 
     return response.status(200).json(games);
 });
